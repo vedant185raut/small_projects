@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 29, 29);
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: 600;
+}
+#video{
+    border: 2px solid white;
+}
+canvas{
+    position: absolute;
+}
